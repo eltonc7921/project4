@@ -1,0 +1,39 @@
+.heading {
+    background: black;
+    opacity: 85%;
+    color: #00ccff;
+    padding: 10px;
+}
+
+body {
+    background: url("https://media3.giphy.com/media/NKpw4yuMufUhq/source.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.content {
+    background: black;
+    opacity: 85%;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+.credit {
+    font-style: italic;
+    text-align: center;
+    color: #00ccff;
+}
+
+.credit a:visited, .credit a:link {
+    color: #00ccff;
+}
+
+h2 {
+    color: #00ccff;
+}
+
+.syntax {
+    color: #9700FF;
+}
