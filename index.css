@@ -2,7 +2,8 @@
     background: black;
     opacity: 85%;
     color: #00ccff;
-    padding: 10px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 body {
@@ -16,8 +17,7 @@ body {
     background: black;
     opacity: 0.80;
     color: white;
-    margin: 20px;
-    padding: 10px;
+    margin-top: 20px;
 }
 
 .credit {
@@ -51,9 +51,13 @@ h2 {
     display: inline-block;
     position: relative;
     color: #00ccff;
-    background-color: black;
+    background-color: #121f1f;
     font-size: 24px;
     font-weight: bold;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 15px;
 }
 
 .box + .dd-content {
