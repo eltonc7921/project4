@@ -14,7 +14,7 @@ body {
 
 .content {
     background: black;
-    opacity: 85%;
+    opacity: 0.80;
     color: white;
     margin: 20px;
     padding: 10px;
@@ -35,5 +35,36 @@ h2 {
 }
 
 .syntax {
-    color: #9700FF;
+    color: #E000FF;
 }
+
+.box {
+    display: none;
+}
+
+.dd-content {
+    overflow: hidden;
+    color: white;
+}
+
+.title {
+    display: inline-block;
+    position: relative;
+    color: #00ccff;
+    background-color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.box + .dd-content {
+    max-height: 0;
+    transition: max-height 0.25s ease-in;
+    overflow: hidden;
+}
+
+.box:checked + .dd-content {
+    max-height: 110px;
+    transition: max-height 0.25s ease-out;
+}
+
+/* https://codepen.io/raneio/pen/NbbZEM */
