@@ -67,7 +67,7 @@ h2 {
 }
 
 .box:checked + .dd-content {
-    max-height: 150px;
+    max-height: 180px;
     transition: max-height 0.25s ease-out;
 }
 
